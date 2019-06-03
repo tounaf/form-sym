@@ -3,6 +3,18 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
 
+#bootstrap
+gem 'bootstrap', '~> 4.3.1'
+#jquery rails
+gem 'jquery-rails'
+#simple form
+gem 'simple_form'
+#datepicker
+gem 'bootstrap-datepicker-rails', '~> 1.6', '>= 1.6.0.1'
+#datepicker for simple_form
+gem 'date_wrapper'
+#font awesome
+gem "font-awesome-rails"
 # ckeditor
 gem 'ckeditor', '~> 4.2'
 #authorization

@@ -1,0 +1,2 @@
+class Fiambenana < ApplicationRecord
+end
