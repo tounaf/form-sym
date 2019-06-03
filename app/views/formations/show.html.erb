@@ -1,14 +1,32 @@
+
+<style>
+  .nav_header {
+    width: 100%;
+  }
+</style>
+
+
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @formation.title %>
-</p>
+<div class="container">
+  <div class="row">
+    <div class="header nav_header">
+      <%= render 'formations/navbar'%>
+    </div>
+    
+    <div class="col-md-offset-8">
+      <p >
+        <%= @formation.title %>
+      </p>
 
-<p>
-  <strong>Content:</strong>
-  <%= raw @formation.content  %>
-</p>
+      <div class="jumbotron">
+        <%= raw @formation.content  %>
+      </div>
 
-<%= link_to 'Edit', edit_formation_path(@formation) %> |
-<%= link_to 'Back', formations_path %>
+      <%= link_to 'Edit', edit_formation_path(@formation) %> |
+      <%= link_to 'Back', formations_path %>
+    
+    </div>
+  </div>
+</div>
+
