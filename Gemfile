@@ -20,7 +20,7 @@ gem 'ckeditor', '~> 4.2'
 #authorization
 gem 'cancancan', '~> 3.0', '>= 3.0.1'
 #user management
-gem 'devise', '~> 4.6', '>= 4.6.2'
+gem 'devise', '~> 4.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
 # Use postgresql as the database for Active Record
